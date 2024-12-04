@@ -192,32 +192,15 @@ console.log("*******************************************************************
 
 console.log("ESERCIZIO 10")
 let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
+if (val < 5) {
       console.log("Meno di 5");
+    } else if (val < 10) {
+      console.log("Meno di 10");
     } else {
       console.log("Uguale a 10 o maggiore");
     }
   
 
-let val2 = 3
-  if (val2 < 10) {
-      console.log("Meno di 10");
-    } else if (val2 < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
-
-let val1 = 11
-  if (val1 < 10) {
-      console.log("Meno di 10");
-    } else if (val1 < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
 
 console.log("*****************************************************************************");
 
@@ -241,8 +224,9 @@ const me = {
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
+me.city = "toronto";
 
-console.log(" me.city = 'Toronto' ");
+console.log(me);
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
